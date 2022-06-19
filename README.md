@@ -1,2 +1,2 @@
-# DIP-C-
+# DIP-C++
 Dependency Inversion Principle
