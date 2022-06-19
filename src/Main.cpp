@@ -13,6 +13,7 @@ int main(){
      * a specific class from the interface, depending on the type object that the pointer is pointing at
      * the output differs thanks to polymorphism
      */
+
     IReceiptSender* emailReceiptSender = new EmailReceiptSender();
     IReceiptSender* appReceiptSender = new AppReceiptSender();
 
