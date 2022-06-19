@@ -32,3 +32,5 @@ std::ostream &operator<<(std::ostream &os, const Product &product) {
     os << "name: " << product.name << " price: " << product.price;
     return os;
 }
+
+Product::Product(const std::string &name, double price) : name(name), price(price) {}

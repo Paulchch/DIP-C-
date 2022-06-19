@@ -13,6 +13,8 @@ private:
 public:
     Product();
 
+    Product(const std::string &name, double price);
+
     virtual ~Product();
 
     const std::string &getName() const;
