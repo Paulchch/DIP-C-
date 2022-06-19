@@ -8,6 +8,11 @@ int main(){
 
     Product product("BMW G80 M3", 80000);
 
+    /**
+     * An interface object pointer is pointing at a concrete object that overrides
+     * a specific class from the interface, depending on the type object that the pointer is pointing at
+     * the output differs thanks to polymorphism
+     */
     IReceiptSender* emailReceiptSender = new EmailReceiptSender();
     IReceiptSender* appReceiptSender = new AppReceiptSender();
 
