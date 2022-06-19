@@ -20,6 +20,9 @@ int main(){
     //Send by App
     productManager.purchase(appReceiptSender);
 
-
+    /**
+     * The output is dictated by the implementation of the Interface's method depending on the type
+     * of concrete object that the pointer is looking at
+     */
     return 0;
 }
